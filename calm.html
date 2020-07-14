@@ -18,8 +18,8 @@
 </head>
 <body>
 
-  <!-- Start your project here-->  
-  <header class="mb-5">
+  <!-- Started project here-->  
+  <header class="mb-5" id="header">
     <div class="conatiner-fluid">
       <div class="container">
         <div class="row">
@@ -30,7 +30,7 @@
             <h1 class="headerH1 mb-3 mb-md-5"> Never have to say a wrong word again </h1>
             <h5 class="d-none d-md-block headerH5 mb-5">Never have to say the wrong things you don&#39t want to say in conversations again with your very own AI conversation
             assistant</h5>
-            <h5 class="headerH6">Coming soon, join the waitlist</h5>
+            <h5 class="headerH6"><b>Coming soon, join the waitlist</b></h5>
             <div class="searchWrapper input-group mb-5">
               <input type="text address" class="d-none d-md-block form-control" placeholder="Email" aria-label="searchBar"
                 aria-describedby="searchBar">
@@ -39,60 +39,66 @@
               </div>
             </div>
           </div>
-          <div class="offset-1 col-4"><img src="img/headerPlus.svg" class="img-fluid" alt="CalmDown App Image Prototype"></div>
+          <div class="offset-1 col-4"><img src="img/headerPlus.svg" class="img-fluid wow slideInRight slow"
+             
+            alt="CalmDown App Image Prototype"></div>
       </div>
-      <div class="d-none d-md-flex justify-content-center">
-        <a href="#show" class="fas fa-chevron-circle-down fa-lg animated bounce infinite"></a>
+      <div class="d-none d-md-flex justify-content-center animated smooth-scroll slow">
+        <a href="#to" class="fas fa-chevron-circle-down fa-lg animated bounce slower infinite"></a>
       </div>
     </div>
   </div>
-  </header>
+  </header><!--HEADER END HERE-->
+  
   <section id="show" class="my-4">
     <div class="container pt-7 mx-3 row d-flex align-items-center mx-auto">
-      <div class="wrapper col-md-6">
-        <div class="about-img mx-auto"><img src="img/2.svg" class="ml-3 img-fluid icon" width="65%"
+      <div class="wrapper col-md-6 wow slideInLeft fast">
+        <div class="about-img mx-auto flex-end"><img src="img/2.svg" class="ml-3 img-fluid icon" width="65%"
             alt="...">
         </div>
       </div>
-      <div class="case offset-1 col-md-5">
+      <div class="case col-md-5 wow slideInRight slow">
         <h5>Your very own conversation assistant</h5>
         <p>With your very own personal conversation expert in your pocket, you won’t get to say a wrong word again</p>
         <!--<a href="#" class="btn-warning bg-primal btn-lg mt-4 p-3"> Read More </i></a>-->
       </div>
     </div>
-  </section>
+  </section><!--FIRST PROTOTYPE-->
+  
   <section id="show" class="my-5">
-    <div class="container pt-7 mx-3 row d-flex align-items-center mx-auto">
-      <div class="wrapper col-md-6 order-md-2">
-        <div class="about-img mx-auto"><img src="img/3.svg" class="ml-3 img-fluid icon" width="65%" alt="...">
+    <div id="to" class="container pt-7 mx-3 row d-flex align-items-center mx-auto">
+      <div class="wrapper col-md-6 order-md-2 wow slideInRight fast">
+        <div class="mx-auto d-flex justify-content-end"><img src="img/3.svg" class="ml-3 img-fluid icon" width="65%" alt="App Prototype">
         </div>
       </div>
-      <div class="case offset-1 col-md-5 order-md-1">
+      <div class="case col-md-5 order-md-1 wow slideInLeft slow">
         <h5>Voice analyzer and simulators</h5>
         <p>Analyzes your voice and has the ability to detect mood of conversation by matching tone of voice.</p>
         <!--<a href="#" class="btn-warning bg-primal btn-lg mt-4 p-3"> Read More </i></a>-->
       </div> 
     </div>
-  </section>
+  </section><!--SECOND PROTOTYPE-->
+
   <section id="show" class="my-4">
-    <div class="about-container container pt-7 mx-3 row d-flex align-items-center mx-auto">
-      <div class="wrapper col-md-6">
-        <div class="about-img mx-auto"><img src="img/4.svg" class="ml-3 img-fluid icon" width="60%" alt="...">
+    <div class="container pt-7 mx-3 row d-flex align-items-center mx-auto">
+      <div class="wrapper col-md-6 wow slideInLeft fast">
+        <div class="mx-auto"><img src="img/4.svg" class="ml-3 img-fluid icon" width="60%" alt="...">
         </div>
       </div>
-      <div class="case offset-1 col-md-5">
+      <div class="case col-md-5 wow slideInRight slow">
         <h5>Custom Personalizing</h5>
         <p>Personalize your app with the custom settings, helps the voice assistant to refer to you on first name basis or anything
         you wish</p>
         <!--<a href="#" class="btn-warning bg-primal btn-lg mt-4 p-3"> Read More </i></a>-->
       </div>
     </div>
-  </section>
-  <section id="show" class="my-4 container">
-    <div class="about-container container pt-7 mx-3 row d-flex align-items-center justify-content-center mx-auto">
-      <div class="container wrapper col-10 mb-5">
+  </section><!--Second PROTOTYPE-->
+
+  <section id="show" class="my-4 container" id="last">
+    <div class="container pt-7 mx-3 row d-flex align-items-center justify-content-center mx-auto">
+      <div class="container wrapper col-md-6 mb-5 wow flipInY slow">
         <div class="about-img mx-auto d-flex justify-content-center"><img src="img/5.svg" class="mx-auto img-fluid icon" 
-          width="70%" alt="...">
+          width="80%" alt="...">
         </div>
       </div>
       <div class="case col-12 text-center mb-4">
@@ -107,9 +113,12 @@
         <div class="input-group-append">
           <button class="input-group-text text-white bg-primary px-5" id="searchBar">Subcribe</button>
         </div>
+        <div class="d-none d-md-flex justify-content-center animated smooth-scroll slow">
+          <a href="#header" class="fas fa-chevron-circle-up fa-lg animated bounce slower infinite"></a>
+        </div>
       </div>
     </div>
-  </section>
+  </section><!--Thrid PROTOTYPE-->
   
 
   <!-- End your project here-->
@@ -123,7 +132,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
+  <script src="js/calm.js" type="text/javascript"></script>
 
 </body>
 </html>
