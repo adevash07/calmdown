@@ -1,0 +1,45 @@
+/* HEADER STYLE */
+body {
+    color: #333333;
+}
+.nav-brand {
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+}
+.navbar {
+box-shadow: none;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 1.7px;
+-webkit-box-shadow: none;
+/* identical to box height */
+}
+.navbar a {
+    color: #333333;
+}
+.headerH1 {
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: calc(24px + 30 * ((100vw - 320px) / 680));
+line-height: calc(24px + 25 * ((100vw - 320px) / 680)); ;
+}
+.headerH5 {
+    font-size: calc(16px + 10 * ((100vw - 320px) / 680));
+}
+
+.headerH6 {
+    font-size: calc(14px + 8 * ((100vw - 320px) / 680));
+}
+.searchWrapper, input.form-control {
+    min-height:3.5rem;
+}
+#input-group-append {
+    width: 8rem;
+    text-align: center!important;
+}
