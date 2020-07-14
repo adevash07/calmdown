@@ -2,32 +2,19 @@
 body {
     color: #333333;
 }
-.nav-brand {
-font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
+header {
+    background: rgba(8, 71, 206, 0.02);
 }
-.navbar {
-box-shadow: none;
-font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 1.2rem;
-line-height: 1.7px;
--webkit-box-shadow: none;
-/* identical to box height */
-}
-.navbar a {
-    color: #333333;
+.navbar, a.navbar-brand  {
+    box-shadow: none;
+    color: black;
 }
 .headerH1 {
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: calc(24px + 30 * ((100vw - 320px) / 680));
-line-height: calc(24px + 25 * ((100vw - 320px) / 680)); ;
+line-height: calc(24px + 25 * ((100vw - 320px) / 680));
 }
 .headerH5 {
     font-size: calc(16px + 10 * ((100vw - 320px) / 680));
@@ -42,4 +29,17 @@ line-height: calc(24px + 25 * ((100vw - 320px) / 680)); ;
 #input-group-append {
     width: 8rem;
     text-align: center!important;
+}
+.case h5 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(24px + 20 * ((100vw - 320px) / 680));
+    line-height: calc(24px + 15 * ((100vw - 320px) / 680));
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        min-height: 100vh;
+    }
 }
